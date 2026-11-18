@@ -1,0 +1,13 @@
+{
+  "name": "agent-skills",
+  "version": "0.1.0",
+  "description": "Reusable Agent Skills for Cursor, Claude Code, Codex, and compatible agents.",
+  "author": {
+    "name": "Kristi Jorgji"
+  },
+  "homepage": "https://github.com/kristijorgji/agent-skills",
+  "repository": "https://github.com/kristijorgji/agent-skills",
+  "license": "MIT",
+  "commands": ["./.claude/commands"],
+  "skills": "./skills"
+}

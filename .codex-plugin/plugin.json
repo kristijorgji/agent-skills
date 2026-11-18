@@ -1,0 +1,25 @@
+{
+  "name": "agent-skills",
+  "version": "0.1.0",
+  "description": "Reusable Agent Skills for Cursor, Claude Code, Codex, and compatible agents.",
+  "author": {
+    "name": "Kristi Jorgji",
+    "url": "https://github.com/kristijorgji"
+  },
+  "homepage": "https://github.com/kristijorgji/agent-skills",
+  "repository": "https://github.com/kristijorgji/agent-skills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Skills",
+    "shortDescription": "Reusable planning and engineering skills for AI coding agents.",
+    "longDescription": "A growing collection of Agent Skills maintained by Kristi Jorgji, starting with detailed-plan for explicit, ordered implementation planning.",
+    "developerName": "Kristi Jorgji",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": [
+      "Use the detailed-plan skill to plan these numbered topics",
+      "Help me choose the right skill for this task"
+    ]
+  }
+}

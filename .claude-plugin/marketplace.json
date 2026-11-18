@@ -1,0 +1,13 @@
+{
+  "name": "kristijorgji-agent-skills",
+  "owner": {
+    "name": "Kristi Jorgji"
+  },
+  "plugins": [
+    {
+      "name": "agent-skills",
+      "source": "./",
+      "description": "Reusable Agent Skills for Cursor, Claude Code, Codex, and compatible agents."
+    }
+  ]
+}
